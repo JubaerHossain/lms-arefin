@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         "p2a-color-text-c3": "#4b5563",
-        gray: { "100": "#121220", "200": "#020c1a" },
+        gray: {
+          "100": "#121220",
+          "200": "#020c1a",
+        },
         black: "#000",
         "p2a-color-text-c1": "#111827",
         "p2a-color-text-or-01": "#fff",
@@ -26,14 +29,22 @@ module.exports = {
         "p2a-color-secondary-c1": "#f8d60a",
         slategray: "#6b7280",
       },
-      fontFamily: { manrope: "Manrope", "p2a-text-sub-title-1-18px": "Inter" },
-      borderRadius: { "8xs-2": "4.2px" },
+      fontFamily: {
+        manrope: "Manrope",
+        "p2a-text-sub-title-1-18px": "Inter",
+      },
+      borderRadius: {
+        "8xs-2": "4.2px",
+      },
     },
     fontSize: {
       "xl-7": "20.7px",
       base: "16px",
       xl: "20px",
       lg: "18px",
+      "smi-2": "12.2px",
+      "lgi-1": "19.1px",
+      "xs-2": "11.2px",
       "11xl": "30px",
       "2xl": "21px",
       "15xl": "34px",
@@ -43,5 +54,7 @@ module.exports = {
       xs: "12px",
     },
   },
-  corePlugins: { preflight: false },
+  corePlugins: {
+    preflight: false,
+  },
 };
