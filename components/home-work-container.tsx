@@ -1,18 +1,19 @@
 import type { NextPage } from "next";
 import { useMemo } from "react";
 import CSS, { Property } from "csstype";
+import styles from "./home-work-container.module.css";
 
 type HomeWorkContainerType = {
-  image231?: string;
-  prop?: string;
+  classSheetRecordedClassTe?: string;
+  classSheetRecordedClassNa?: string;
 
   /** Style props */
   propTop?: Property.Top;
 };
 
 const HomeWorkContainer: NextPage<HomeWorkContainerType> = ({
-  image231,
-  prop,
+  classSheetRecordedClassTe,
+  classSheetRecordedClassNa,
   propTop,
 }) => {
   const frameDiv2Style: CSS.Properties = useMemo(() => {
@@ -22,17 +23,14 @@ const HomeWorkContainer: NextPage<HomeWorkContainerType> = ({
   }, [propTop]);
 
   return (
-    <div
-      className="absolute top-[3012px] left-[49px] rounded-lg box-border w-[618px] flex flex-col p-6 items-start justify-center text-left text-xl text-p2a-color-text-c1 font-p2a-text-sub-title-1-18px border-[1px] border-solid border-gainsboro"
-      style={frameDiv2Style}
-    >
-      <div className="flex flex-row items-center justify-start gap-[16px]">
+    <div className={styles.mainContainerInner} style={frameDiv2Style}>
+      <div className={styles.image231Parent}>
         <img
-          className="relative w-9 h-9 shrink-0 object-cover"
+          className={styles.image231Icon}
           alt=""
-          src={image231}
+          src={classSheetRecordedClassTe}
         />
-        <div className="relative leading-[24px] font-semibold">{prop}</div>
+        <div className={styles.div}>{classSheetRecordedClassNa}</div>
       </div>
     </div>
   );

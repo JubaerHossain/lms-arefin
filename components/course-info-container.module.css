@@ -1,0 +1,57 @@
+.cardLightPriceChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318px;
+  height: 151px;
+  object-fit: cover;
+}
+.div,
+.ssc2023 {
+  position: relative;
+  font-weight: 600;
+}
+.ssc2023 {
+  line-height: 28px;
+  display: inline-block;
+  width: 244px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.div {
+  line-height: 20px;
+}
+.ssc2023Parent,
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--p2a-button-button-text-1-size);
+  color: var(--main-color1);
+}
+.ssc2023Parent {
+  position: absolute;
+  top: 168px;
+  left: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.cardLightPrice {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--p2a-color-text-or-01);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 318px;
+  height: 271px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  color: var(--p2a-color-text-c2);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}

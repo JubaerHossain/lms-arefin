@@ -1,0 +1,78 @@
+.p {
+  margin: 0;
+}
+.freeDownloadsContainer {
+  position: relative;
+  line-height: 42px;
+  font-weight: 600;
+}
+.fidownloadIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.fidownloadParent {
+  border-radius: var(--br-9xs);
+  background-color: var(--main-color1);
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-smi-5) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  font-size: var(--p2a-button-button-text-1-size);
+}
+.freeDownloadsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.image232Icon {
+  position: relative;
+  width: 438.23px;
+  height: 341px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-156xl);
+}
+.frameWrapper {
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    89.76deg,
+    #353535,
+    #0e2e1b 23.38%,
+    #4c324d 57.14%,
+    #353535
+  );
+  width: 1344.23px;
+  flex-direction: column;
+  padding: 0 var(--padding-117xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--p2a-color-text-or-01);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}

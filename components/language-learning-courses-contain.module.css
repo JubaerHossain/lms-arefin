@@ -1,0 +1,32 @@
+.languageLearningCourses {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.courses {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 18px;
+  color: var(--p2a-color-text-or-02);
+}
+.languageLearningCoursesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.frameWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--p2a-color-text-c1);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-3xl);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  color: var(--p2a-color-text-or-01);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}

@@ -1,33 +1,97 @@
 import type { NextPage } from "next";
-
+import styles from "./mobile-app-container.module.css";
 const MobileAppContainer: NextPage = () => {
   return (
-    <div className="rounded-2xl [background:linear-gradient(89.76deg,_#353535,_#0e2e1b_23.38%,_#4c324d_57.14%,_#353535)] w-[1344.23px] h-[529px] shrink-0 flex flex-row py-0 px-8 box-border items-end justify-center text-left text-11xl text-p2a-color-text-or-01 font-p2a-text-sub-title-1-18px">
-      <div className="flex flex-row items-center justify-start gap-[10px]">
-        <div className="flex flex-col items-start justify-center gap-[40px]">
-          <div className="relative leading-[42px] font-semibold">
-            <p className="m-0">ডাউনলোড করুন আমাদের</p>
-            <p className="m-0">মোবাইল অ্যাপ, শেখা শুরু</p>
-            <p className="m-0">করুন আজ থেকেই</p>
+    <div className={styles.mainContainerInner}>
+      <div className={styles.frameParent}>
+        <div className={styles.frameGroup}>
+          <div className={styles.frameContainer}>
+            <div className={styles.image204Parent}>
+              <img
+                className={styles.image204Icon}
+                alt=""
+                src="/image-204@2x.png"
+              />
+              <div className={styles.div}>ডাউনলোড করুন আমাদের মোবাইল অ্যাপ</div>
+            </div>
+            <div className={styles.frameDiv}>
+              <div className={styles.pngegg11Parent}>
+                <img
+                  className={styles.pngegg11}
+                  alt=""
+                  src="/pngegg-1-1@2x.png"
+                />
+                <div className={styles.downloadOnTheParent}>
+                  <b className={styles.downloadOnThe}>Download on the</b>
+                  <b className={styles.appStore}>App Store</b>
+                </div>
+              </div>
+              <div className={styles.frameParent1}>
+                <div className={styles.getItOnParent}>
+                  <b className={styles.getItOn}>GET IT ON</b>
+                  <b className={styles.appStore1}>App Store</b>
+                </div>
+                <img
+                  className={styles.image1Icon}
+                  alt=""
+                  src="/image-1@2x.png"
+                />
+              </div>
+            </div>
           </div>
-          <div className="flex flex-row items-end justify-start gap-[16px]">
-            <img
-              className="relative w-[150px] h-12 shrink-0 overflow-hidden"
-              alt=""
-              src="/googleplay-1.svg"
-            />
-            <img
-              className="relative w-[156px] h-[49px] shrink-0 object-cover"
-              alt=""
-              src="/image-235@2x.png"
-            />
+          <div className={styles.frameParent2}>
+            <div className={styles.parent}>
+              <div className={styles.div}>কোম্পানি</div>
+              <div className={styles.div2}>
+                <p className={styles.p}>ক্যারিয়ার</p>
+                <p className={styles.p}>শিক্ষক হিসেবে জয়েন করুন</p>
+                <p className={styles.p}>প্রাইভেসি পলিসি</p>
+                <p className={styles.p}>অ্যাফিলিয়েট হতে চাইলে</p>
+                <p className={styles.p}>রিফান্ড পলিসি</p>
+                <p className={styles.p}>ফ্রি ডাউনলোড</p>
+              </div>
+            </div>
+            <div className={styles.parent}>
+              <div className={styles.div}>অন্যান্য</div>
+              <div className={styles.div4}>
+                <p className={styles.p}>ব্লগ</p>
+                <p className={styles.p}>বুক স্টোর</p>
+                <p className={styles.p}>নোটস এবং গাইডস</p>
+                <p className={styles.p}>অফার সমূহ</p>
+                <p className={styles.p}>ক্র্যাশ কোর্স</p>
+                <p className={styles.p}>ভেরিফাই সার্টিফিকেট</p>
+              </div>
+            </div>
+            <div className={styles.frameParent3}>
+              <div className={styles.parent}>
+                <div className={styles.div}>আমাদের যোগাযোগ মাধ্যম</div>
+                <div className={styles.contact8801609986928Container}>
+                  <p className={styles.p}>
+                    <span className={styles.contact}>{`Contact - `}</span>
+                    <span>+8801609-986928</span>
+                  </p>
+                  <p className={styles.p}>
+                    <span className={styles.contact}>{`SMS - `}</span>
+                    <span>Help to 26969 (24X7)</span>
+                  </p>
+                  <p className={styles.p}>
+                    <span className={styles.contact}>{`Email - `}</span>
+                    <span>admin@p2abd.com</span>
+                  </p>
+                </div>
+              </div>
+              <div className={styles.social}>
+                <img className={styles.icon} alt="" src="/1.svg" />
+                <img className={styles.icon} alt="" src="/5.svg" />
+                <img className={styles.icon} alt="" src="/2.svg" />
+                <img className={styles.icon} alt="" src="/4.svg" />
+              </div>
+            </div>
           </div>
         </div>
-        <img
-          className="relative w-[522.93px] h-[445px] shrink-0 object-cover"
-          alt=""
-          src="/image-234@2x.png"
-        />
+        <div className={styles.p2a}>
+          স্বত্ব © ২০১৫ - ২০২৩ P2A কর্তৃক সর্বস্বত্ব সংরক্ষিত
+        </div>
       </div>
     </div>
   );

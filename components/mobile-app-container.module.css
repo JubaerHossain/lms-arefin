@@ -1,0 +1,218 @@
+.image204Icon {
+  position: relative;
+  width: 80.72px;
+  height: 80.72px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.image204Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.pngegg11 {
+  position: absolute;
+  top: 12.31px;
+  left: 18.38px;
+  width: 27.18px;
+  height: 27.18px;
+  object-fit: cover;
+}
+.appStore,
+.downloadOnThe {
+  position: relative;
+  line-height: 14.02px;
+}
+.appStore {
+  font-size: 19.07px;
+  line-height: 16.2px;
+}
+.downloadOnTheParent {
+  position: absolute;
+  top: 11.28px;
+  left: 53.04px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pngegg11Parent {
+  position: relative;
+  border-radius: 4.23px;
+  background-color: var(--p2a-color-text-c1);
+  width: 169px;
+  height: 55px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.appStore1,
+.getItOn {
+  position: relative;
+  line-height: 15.23px;
+}
+.appStore1 {
+  font-size: 20.71px;
+  line-height: 17.6px;
+}
+.getItOnParent {
+  position: absolute;
+  top: 8.59px;
+  left: 52.41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image1Icon {
+  position: absolute;
+  top: 10.32px;
+  left: 17.4px;
+  width: 29px;
+  height: 30.9px;
+  object-fit: cover;
+}
+.frameParent1 {
+  position: relative;
+  border-radius: 4.23px;
+  background-color: var(--p2a-color-text-c1);
+  width: 169px;
+  height: 55px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: 12.18px;
+}
+.frameContainer,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  background-color: var(--p2a-color-text-or-01);
+  flex-direction: row;
+  gap: var(--gap-smi-4);
+  font-size: 11.22px;
+  color: var(--p2a-color-text-or-01);
+  font-family: var(--font-manrope);
+}
+.frameContainer {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.p {
+  margin: 0;
+}
+.div2 {
+  position: relative;
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  line-height: 45px;
+  font-weight: 500;
+  color: var(--p2a-color-text-c1);
+  display: inline-block;
+  width: 175px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.div4 {
+  position: relative;
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  line-height: 45px;
+  font-weight: 500;
+  display: inline-block;
+  width: 154px;
+}
+.contact,
+.div4 {
+  color: var(--p2a-color-text-c1);
+}
+.contact8801609986928Container {
+  position: relative;
+  font-size: var(--p2a-button-button-text-1-size);
+  line-height: 45px;
+  font-weight: 500;
+  display: inline-block;
+  width: 227px;
+  color: var(--main-color1);
+}
+.icon {
+  position: relative;
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+}
+.social {
+  width: 213.78px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini-1);
+}
+.frameGroup,
+.frameParent2,
+.frameParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  width: 227px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.frameGroup,
+.frameParent2 {
+  flex-direction: row;
+}
+.frameParent2 {
+  gap: var(--gap-111xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frameGroup {
+  gap: var(--gap-159xl);
+}
+.p2a {
+  position: relative;
+  font-size: 20.71px;
+  line-height: 17.6px;
+  font-weight: 600;
+  font-family: var(--font-manrope);
+  color: var(--p2a-color-text-c3);
+}
+.frameParent,
+.mainContainerInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  border-top: 1px solid var(--stock-2);
+  padding: var(--padding-21xl) 0 0;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.mainContainerInner {
+  position: absolute;
+  top: 9809px;
+  left: 0;
+  padding: var(--padding-101xl) var(--padding-29xl);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  color: var(--p2a-color-text-c1);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}

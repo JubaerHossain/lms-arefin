@@ -1,0 +1,31 @@
+.div {
+  position: relative;
+  line-height: 56px;
+  font-weight: 600;
+}
+.courses {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  color: var(--p2a-color-text-c2);
+}
+.admissionExam,
+.admissionExamWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.admissionExam {
+  gap: var(--gap-21xl);
+}
+.admissionExamWrapper {
+  padding: var(--padding-101xl) var(--padding-29xl);
+  text-align: left;
+  font-size: var(--p2a-text-title-1-44px-size);
+  color: var(--p2a-color-text-c1);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}

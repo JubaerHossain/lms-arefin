@@ -1,0 +1,215 @@
+.frameParent {
+  position: absolute;
+  top: 3513px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.systemLinearrowDropRightLIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.parent {
+  position: absolute;
+  top: 3366px;
+  left: 630px;
+  border-radius: var(--br-9xs);
+  background-color: var(--main-color1);
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-smi-5) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  color: var(--p2a-color-text-or-01);
+}
+.frameChild {
+  left: 0;
+  background: linear-gradient(89.72deg, #a22a2b, #ae3132);
+  width: 503.92px;
+}
+.frameChild,
+.frameItem,
+.image201Icon {
+  position: absolute;
+  top: 0;
+  height: 124px;
+}
+.frameItem {
+  left: 1416.08px;
+  background: linear-gradient(89.72deg, #ae3132, #a22a2b);
+  width: 503.92px;
+}
+.image201Icon {
+  left: 503.92px;
+  width: 916.74px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: 80px;
+  left: -240px;
+  width: 1920px;
+  height: 124px;
+}
+.p {
+  margin: 0;
+}
+.div1,
+.div2 {
+  position: relative;
+  line-height: 56px;
+  font-weight: 600;
+}
+.div2 {
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--p2a-color-text-c3);
+  text-align: left;
+}
+.textAndSubText {
+  position: absolute;
+  top: 2391px;
+  left: 404px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--p2a-text-title-1-44px-size);
+}
+.image230Icon {
+  position: absolute;
+  top: 2753px;
+  left: 662px;
+  width: 640px;
+  height: 510px;
+  object-fit: cover;
+}
+.image231Icon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div3 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.image231Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.div4 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.frameGroup,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs) 50px;
+  justify-content: flex-start;
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  color: var(--p2a-color-text-c3);
+}
+.frameGroup {
+  flex-direction: column;
+  justify-content: center;
+  gap: 13px;
+}
+.frameContainer,
+.frameDiv,
+.mainContainerInner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainerInner {
+  top: 2803px;
+  left: 49px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-ghostwhite);
+  padding: var(--padding-5xl);
+  font-size: var(--font-size-xl);
+}
+.frameContainer,
+.frameDiv {
+  top: 7082px;
+  left: 0;
+  padding: var(--padding-41xl) var(--padding-29xl) var(--padding-101xl);
+  gap: var(--gap-61xl);
+}
+.frameDiv {
+  top: 8164px;
+  padding: var(--padding-101xl) var(--padding-29xl);
+}
+.homePage01,
+.mainContainer {
+  background-color: var(--p2a-color-text-or-01);
+  height: 10496px;
+  overflow: hidden;
+}
+.mainContainer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.homePage01 {
+  position: relative;
+  width: 100%;
+  contain: content;
+  text-align: center;
+  font-size: var(--p2a-button-button-text-1-size);
+  color: var(--p2a-color-text-c1);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}
+@media screen and (max-width: 1200px) {
+  .homePage01 {
+    display: flex;
+    width: 1200px;
+    height: 780px;
+    border-radius: 0;
+    opacity: 0;
+    min-width: 1200px;
+    min-height: 780px;
+    contain: content;
+  }
+  .homePage01.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

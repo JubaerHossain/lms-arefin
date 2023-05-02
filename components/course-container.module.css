@@ -1,0 +1,82 @@
+.icon {
+  width: 24px;
+  height: 19px;
+}
+.frameChild,
+.icon,
+.readingWriting {
+  position: relative;
+  flex-shrink: 0;
+}
+.readingWriting {
+  line-height: 25px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 374.82px;
+  height: 125px;
+}
+.frameChild {
+  width: 61px;
+  height: 61px;
+  object-fit: cover;
+}
+.ceoSlack,
+.estherHoward {
+  position: relative;
+  text-transform: capitalize;
+}
+.estherHoward {
+  line-height: 28px;
+  font-weight: 500;
+}
+.ceoSlack {
+  font-size: var(--font-size-sm);
+  color: var(--main-color1);
+}
+.ellipseParent,
+.estherHowardParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.ellipseParent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  color: var(--p2a-color-text-c2);
+}
+.frameContainer,
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+.parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--p2a-color-text-or-01);
+  border: 1px solid var(--stock-2);
+  box-sizing: border-box;
+  width: 432px;
+  padding: var(--padding-29xl);
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  position: relative;
+  width: 432px;
+  height: 329px;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: var(--p2a-button-button-text-1-size);
+  color: var(--p2a-color-text-c3);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}

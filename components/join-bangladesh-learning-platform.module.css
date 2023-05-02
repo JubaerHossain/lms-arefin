@@ -1,0 +1,126 @@
+.p {
+  margin: 0;
+}
+.div {
+  position: relative;
+  line-height: 56px;
+  font-weight: 600;
+}
+.frameContainer,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameContainer {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image233Icon {
+  position: relative;
+  width: 640px;
+  height: 400px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameGroup,
+.parent {
+  display: flex;
+  align-items: center;
+}
+.frameGroup {
+  width: 1344px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--font-size-15xl);
+}
+.parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.div1,
+.div2 {
+  position: relative;
+  line-height: 42px;
+  font-weight: 600;
+}
+.div2 {
+  font-size: var(--p2a-text-sub-title-1-18px-size);
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--p2a-color-text-or-02);
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.uphonePauseIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.div3 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameParent2,
+.uphonePauseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.uphonePauseParent {
+  border-radius: var(--br-9xs);
+  background-color: var(--main-color1);
+  height: 44px;
+  padding: var(--padding-smi-5) var(--padding-5xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  font-size: var(--p2a-button-button-text-1-size);
+}
+.frameParent2 {
+  width: 1280px;
+  justify-content: space-between;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  border-radius: var(--br-base);
+  background: linear-gradient(
+    89.76deg,
+    #353535,
+    #0e2e1b 23.38%,
+    #4c324d 57.14%,
+    #353535
+  );
+  width: 1344.23px;
+  padding: var(--padding-23xl) var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--p2a-color-text-or-01);
+}
+.frameParent {
+  align-items: center;
+  gap: var(--gap-61xl);
+  text-align: center;
+  font-size: var(--p2a-text-title-1-44px-size);
+  color: var(--p2a-color-text-c1);
+  font-family: var(--p2a-text-sub-title-1-18px);
+}
